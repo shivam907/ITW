@@ -1,3 +1,3 @@
-n=input("Enter week number: ")
+n=int(input("Enter week number: "))
 l=["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
-print("Week Day is {}".format(l[int(n)-1]))
+print("Week Day is {}".format(l[n-1]))
