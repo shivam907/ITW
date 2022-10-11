@@ -6,7 +6,7 @@ n = int(input("Enter 1 if you want to find power\nEnter 2 if you want to find sq
 if(n==1):
     num = int(input("Enter number "))
     pow = int(input("Enter power "))
-    print("\n Power is {}".format(num**pow))
+    print("\n Power is {}".format(Math.pow(num,pow)))
 elif(n==2):
     num = int(input("Enter number "))
     print("Square root is {}".format(math.sqrt(num)))
